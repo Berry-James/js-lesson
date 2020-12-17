@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script defer type="module" src="index.js"></script>
+    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<body>
+    <main>
+        
+        <!-- NOTIFICATION CONTAINER -->
+        <div class="notify-container"></div>
+        
+        <!-- DOM NAVIGATION COMPONENT -->
+        <section class="container">
+            <h1 class="title">DOM Navigation</h1>
+            <article>
+                <ol>
+                    <li>A list element with no classname or ID</li>
+                    <li class="list-item">A list element with a classname</li>
+                    <li id="list-item">A list element with an ID</li>
+                    <div class="wrapper-div">
+                        <li>A list element nested within a div</li>
+                    </div>
+                </ol>
+            </article>
+        </section>
+
+        <!-- JAVASCRIPT EVENTS -->
+        <section class="container">
+            <h1 class="title">JS Events</h1>
+            <button class="button is-primary">Button</button>
+            <form id="my-form">
+                <input type="text" class="input" placeholder="c00l input">
+                <input type="submit" id="my-input" class="input">
+            </form>
+        </section>
+
+        <!-- FETCHING AND RENDERING DATA -->
+        <section class="container">
+            <h1 class="title">Fetching and rendering data</h1>
+            <div id="my-data">
+                <!-- RENDER DATA HERE -->
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
