@@ -1,0 +1,43 @@
+@import './var.scss';
+
+.nav {
+    transition: 0.3s;
+    width: 100vw;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    position: fixed;
+    z-index: 100;
+    
+
+    a {
+        color: #fff;
+        font-family: $font-title;
+        border-bottom: 2px solid transparent;
+        transition: 0.2s;
+    }
+
+    a:hover {
+        color: #fff;
+        border-bottom: 2px solid #fff;
+    }
+
+    .nav-btns, .side-nav-btns {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        a {
+            margin: 0 1rem;
+        }
+    }
+}
+
+.has-background {
+    background-color: rgb(48, 48, 48);
+    height: 40px;
+
+    a {
+        color: #fff;
+    }
+}

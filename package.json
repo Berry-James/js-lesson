@@ -1,0 +1,25 @@
+{
+  "name": "JS",
+  "version": "1.0.0",
+  "description": "__Table of Contents__",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch scss/styles.scss scss/styles.css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berry-James/js-lesson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Berry-James/js-lesson/issues"
+  },
+  "homepage": "https://github.com/Berry-James/js-lesson#readme",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "mustache": "^4.1.0"
+  }
+}
